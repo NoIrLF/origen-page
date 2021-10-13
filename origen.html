@@ -1,0 +1,207 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Origen</title>
+	<link rel="icon" href="imagen/logo.jpg">
+	
+<style>
+*{
+  margin:0;
+  padding:0;
+  list-style:none;
+  font-family: sans-serif;
+	background: #000000;
+	}
+	
+header{
+	position:relative;
+    margin:0px auto 20px;
+	width:1000px;
+	height:120px;
+	background:#444;
+	}
+	#logo{
+		position: absolute;
+		top:3px;
+		right:0;
+		border: 5px solid #B19A00;
+		width: 800px;
+		height: 115px;
+		background: #000000;
+		font-size: 140px;
+		text-align:left;
+		line-height:120px;
+		color: white;
+		}
+	#tatuajes{
+		position: absolute;
+		bottom: 0;
+		right: 210px;
+		color: white;
+		font-size: 30px;
+		
+	}
+	#escudo{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 250px;
+		height: 200px;
+		}
+nav{
+	position:relative;
+    margin:auto;
+	width:1000px;
+	height:40px;
+	}
+.botones{
+	float: left;
+	width: 196px;
+	margin: 0 2px;
+	height: 40px;
+	background: #333;
+	color: white;
+	line-height: 40px;
+	text-align: center;
+	}
+#ubicacion{
+	position: absolute;
+	top: 0;
+	right: 0;
+	color: white;
+	
+	}
+#mapa{
+	position: absolute;
+	top: 0;
+	right:3px;
+	background: black;
+	
+	}
+#top{
+	position:relative;
+    margin:20px auto;
+	width:1000px;
+	height:192px;
+	}	
+#top ul{
+	height: 192px;
+	width: 1010px;
+	}	
+#top ul li{
+	float: left;
+	width: 326px;
+	height: 192px;
+	background: black;
+	margin-right: 10px;
+	}
+#texto china{
+	position: absolute;
+	right:center;
+	top:center;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+	}
+	#dande{position: absolute;
+	left: 180px}
+section{
+	position:relative;
+    margin:auto;
+	width:1000px;
+	height:453px;
+	background:#aaa;
+	}
+aside#izq{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 250px;
+	height: 453px;
+	background:#333;
+	}
+#feniz{
+	position: absolute;
+	;
+	
+		
+	}
+	article{
+		position: absolute;
+		left:250px;
+		top:0;
+		width: 500px;
+		height: 453px;
+		background: grey;
+		
+	}
+aside#der{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 250px;
+	height: 453px;
+	background:#333;
+	}
+footer{
+	position:relative;
+    margin:20px auto;
+	width:1000px;
+	height:35px;
+	background:#333;
+	text-align:0 center;
+	line-height: 30px;
+	color: white;
+	}
+ 
+	
+</style>
+</head>
+<body>
+	
+<header>
+	<!--inicia presentacion -->
+<div id="escudo"><img src="imagen/logo.jpg" alt="logo" height="145" width="200"></div>
+	
+<div id="logo">RIGEN</div>
+	
+<div id="tatuajes">tatuajes</div>
+        
+</header>
+	
+	<!--barrra de navegacion(menu)-->
+<nav>
+	<ul>
+   <li class="botones">Diseños</li>	
+   <li class="botones">Turnos</li>
+   <li class="botones">Contacto</li>
+   <li class="botones">Consultas</li>
+   <li id="ubicacion"class="botones">Ubicacion
+		<iframe  id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1230.0976859941768!2d-57.554950409516145!3d-37.98325445686911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9584d9998b5e7ed7%3A0x85609b4da34272c6!2sOrigen%20estudio%20de%20tatuajes!5e0!3m2!1ses-419!2sar!4v1633227126230!5m2!1ses-419!2sar" width="40" height="40" style="border:0;" allowfullscreen="" loading="lazy"></iframe></li>
+    </ul>
+</nav>
+  <!--parte superior-->
+<div id="top">
+	 <ul>
+	<li><img src="imagen/bruja_amarillo.jpg" alt="bruja.amarillo" width="180" height="192"><img id="dande" src="imagen/duende.jpg" alt="duende" width="140" height="192"></li>
+		 
+	<li><img src="imagen/china.jpg" alt="china" width="200" height="192">
+    <p id="texto china">diseño de chinita que sabe bailar sabroso,mira para arriba en señal de orgullo ya que perrea peola</p></li>
+		 
+	<li><img src="imagen/bruja_roja.jpg" alt="bruja.roja" width="180" height="192"></li>
+     </ul>
+</div>
+	<!--seccion-->
+<section>
+	<aside id="izq"><img src="imagen/fenix.jpg" alt="fenix" width="250" height="453"></aside>
+<article>
+		<p><img src="imagen/vieja_isla.jpg" alt="vieja" width="496" height="453"></p></article>
+	<aside id="der"><img src="imagen/minita.jpg" alt="minita" height="453" width="250"></aside>
+</section>
+	<!--footer(pie de pagina)-->
+<footer>
+	&copy;Rigen Todos los derechos reservados</footer>
+	
+</body>
+</html>
