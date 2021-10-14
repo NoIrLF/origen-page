@@ -1,0 +1,45 @@
+
+form {
+	position: absolute;
+	background: rgb 0.0.0.0,4;
+	width: 400px;
+	height: 120px;
+	color: white;
+	left:80px;
+}
+h1{font-family:'Ephesis', cursive;
+font-size: 50px;
+color:darkgoldenrod;
+width: 350px;
+height: 100px;
+top: 20px}
+body{
+	margin: 20px auto;
+	width: 800px;
+	height: 800px;
+	background: black;}
+img {
+	position: absolute;
+	width: 900px;
+	height: 700px;
+	left:80px;}
+table{
+	position: absolute;
+	background: rgb 0.0.0.0,4;
+	width: 200px;
+	height: 160px;
+	color: white;
+	right:100px;
+	top: 200px;
+	border: 1px solid darkgoldenrod;
+}
+
+h4{
+	position:absolute;
+    color:darkgoldenrod;
+	right: 60px;
+	font-family: 'Ephesis', cursive;
+	top:0px;
+	font-size:50px;
+	
+}
