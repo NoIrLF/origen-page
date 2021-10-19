@@ -1,0 +1,106 @@
+body {
+	margin:0px auto;
+	width:1000px;
+	height:500px;
+	background:black;
+}
+header{
+	position:relative;
+ 	margin:0px auto 20px ;
+	width:1000px;
+	height:120px;
+	background:black;
+}
+
+#logo{
+		position: absolute;
+		top:3px;
+		right:0;
+		border: 5px solid;
+		border-color: darkgoldenrod ;
+		width: 800px;
+		height: 115px;
+		background: #000000;
+		font-size: 140px;
+		text-align:left;
+		line-height:120px;
+		color: white;
+}
+
+#tatuajes{
+		position: absolute;
+		bottom: 0;
+		right: 210px;
+		color: white;
+		font-size: 30px;
+		
+}
+
+#escudo{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 250px;
+		height: 200px;
+		
+}
+
+#escudo img {
+		border-radius: 100%;
+}
+
+#img1 {
+	margin-top: 20px;
+	margin-left: -150px;
+	position: absolute;
+	width: 1300px;
+	height: 600px;	
+	z-index: 1;
+
+
+}
+
+#ins {
+	position: absolute;
+	margin-top: 80px;
+	margin-left: -150px;
+	z-index: 2;
+}
+
+#wapp {
+	position: absolute;
+	margin-top: 240px;
+	margin-left: -175px;
+	z-index: 2;
+}
+
+#face {
+	position: absolute;
+	margin-top: 400px;
+	margin-left: -150px;
+	z-index: 2;
+}
+
+#textos {
+	position: absolute;
+	color: white;
+	font-size: 30px;
+	font-family: 'Ephesis', cursive;
+	z-index: 2;
+}
+
+#nombre1 {
+	color: darkgoldenrod;
+	margin-top: 100px;
+}
+
+#nombre2 {
+	color: darkgoldenrod;
+	margin-top: 110px;
+}
+
+#nombre3 {
+	color: darkgoldenrod;
+	margin-top: 105px;
+}
+
